@@ -57,7 +57,7 @@ def resize(img, scale_percent=50):
 
 
 def main():
-    cap = cv2.VideoCapture('sq.mp4')
+    cap = cv2.VideoCapture('1.mp4')
     detector = PoseDetector()
 
     while True:
